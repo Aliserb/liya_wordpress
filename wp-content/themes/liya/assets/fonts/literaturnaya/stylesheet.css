@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Literaturnaya';
+    src: url('LiteraturnayaBold.woff2') format('woff2'),
+        url('LiteraturnayaBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Literaturnaya';
+    src: url('LiteraturnayaBoldItalic.woff2') format('woff2'),
+        url('LiteraturnayaBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Literaturnaya';
+    src: url('LiteraturnayaItalic.woff2') format('woff2'),
+        url('LiteraturnayaItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Literaturnaya';
+    src: url('LiteraturnayaPlain.woff2') format('woff2'),
+        url('LiteraturnayaPlain.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8a6a0359-6adc-4450-884c-a1d144c003ef" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../auto-backup" beforeDir="false" afterPath="$PROJECT_DIR$/../../auto-backup" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../asba-arm-web" beforeDir="false" afterPath="$PROJECT_DIR$/../asba-arm-web" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otbasi-backend" beforeDir="false" afterPath="$PROJECT_DIR$/../otbasi-backend" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-weather" beforeDir="false" afterPath="$PROJECT_DIR$/../react-weather" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/liya-front" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2CklZoGNYCn1DDendv4igZWPMBa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/alisher/http/www/liya/wp-content/themes/liya",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/wp-content/themes/liya" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8a6a0359-6adc-4450-884c-a1d144c003ef" name="Changes" comment="" />
+      <created>1659354523940</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1659354523940</updated>
+      <workItem from="1659354527060" duration="194000" />
+      <workItem from="1659354728643" duration="1291000" />
+      <workItem from="1659356096754" duration="23000" />
+      <workItem from="1659356507478" duration="12059000" />
+      <workItem from="1659373495601" duration="1087000" />
+      <workItem from="1659383989052" duration="2870000" />
+      <workItem from="1659423397640" duration="28354000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
