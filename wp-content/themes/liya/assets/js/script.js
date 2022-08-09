@@ -1,7 +1,8 @@
 let about = new Swiper(".about_slider_name", {
-    slidesPerView: "auto",
+    slidesPerView: "3",
     spaceBetween: 30,
     freeMode: true,
+    watchSlidesProgress: true,
     pagination: {
         el: ".about_slider_pagination",
         type: "progressbar"
@@ -11,6 +12,28 @@ let about = new Swiper(".about_slider_name", {
         prevEl: ".about_slider_prev",
     },
 });
+
+let aboutSliderItem = document.querySelectorAll('.about_slider_item');
+
+aboutSliderItem.forEach((aboutSliderLoop) => {
+    // let itemPar = querySelector(".about_info .p");
+    let sliderWidthReduce = () => {
+        for (let i = 0; aboutSliderItem.length; i++) {
+            if (aboutSliderItem[i].classList.contains("swiper-slide-visible")) {
+                aboutSliderItem[i].style.width = "212px";
+            }
+        }
+    }
+
+    let sliderWidthreturn = () => {
+        for (let i = 0; aboutSliderItem.length; i++) {
+            aboutSliderItem[i].style.width = "100%";
+        }
+    }
+
+    aboutSliderLoop.addEventListener('mouseover', sliderWidthReduce);
+    aboutSliderLoop.addEventListener('mouseout', sliderWidthreturn);
+})
 
 let internalAbout = new Swiper(".internal_slider_name", {
     pagination: {
@@ -33,18 +56,12 @@ burgerButton.onclick = function() {
     burgerDropdown.classList.toggle('active');
 }
 
-/*находим все нужные нам headingElem*/
 let mobileMenuItems = document.querySelectorAll('.menu_item a');
-/*прогоняем из через цикл*/
 mobileMenuItems.forEach((item)=>{
     let mobileMenuIcon = document.querySelector(".menu_icon");
-    /*вещаем на каждый элемент обработчик на событие click*/
     item.addEventListener('click', function(){
-        /*у нажатого элемента получаем родителя*/
         let parentItem = this.parentNode;
-        /*находим элемент с контентом*/
         let contentBlock = parentItem.querySelector('.menu_dropdown')
-        /*аналогичная проверка на наличие класса active*/
         if(contentBlock.classList.contains("active")) {
             contentBlock.classList.remove('active');
             mobileMenuIcon.classList.remove('active');

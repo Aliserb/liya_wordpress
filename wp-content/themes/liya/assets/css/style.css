@@ -489,14 +489,25 @@ div.about_slider_pagination span.swiper-pagination-progressbar-fill {
     background: rgb(214, 179, 132);
 }
 
-.about_slider .swiper-slide {
+.about_info {
+    width: 24%;
+}
+
+.about_slider .about_slider_item {
+    max-width: 330px;
     width: 330px;
-    max-height: 440px;
+    height: 440px;
     transition: all 0.3s ease 0s;
 }
 
-.about_slider .swiper-slide:hover {
-    width: 440px;
+.internal_slider .swiper-slide {
+    width: 100%;
+    height: 440px;
+}
+
+.about_slider .about_slider_item:hover {
+    max-width: 566px;
+    width: 566px !important;
 }
 
 .internal_slider {
@@ -511,7 +522,7 @@ div.about_slider_pagination span.swiper-pagination-progressbar-fill {
     transition: all 0.3s ease 0s;
 }
 
-.about_slider .swiper-slide:hover .internal_slider {
+.about_slider .about_slider_item:hover .internal_slider {
     visibility: visible;
     opacity: 1;
 }

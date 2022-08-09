@@ -125,7 +125,7 @@ get_header();
                                     foreach($projects_posts as $key => $post) :
                                         setup_postdata( $post );
                                 ?>
-                                    <div class="swiper-slide">
+                                    <div class="swiper-slide about_slider_item">
                                         <img src="<?php echo the_post_thumbnail_url( 'full' ); ?>" alt="project">
 
                                         <div class="internal_slider">
