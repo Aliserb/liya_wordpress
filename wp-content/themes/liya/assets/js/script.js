@@ -30,7 +30,7 @@ let aboutSliderItem = document.querySelectorAll('.about_slider_item');
 aboutSliderItem.forEach((aboutSliderLoop) => {
     // let itemPar = querySelector(".about_info .p");
     let sliderWidthReduce = () => {
-        for (let i = 0; aboutSliderItem.length; i++) {
+        for (let i = 0; i < aboutSliderItem.length; i++) {
             if (aboutSliderItem[i].classList.contains("swiper-slide-visible")) {
                 aboutSliderItem[i].style.width = "212px";
             }
@@ -38,7 +38,7 @@ aboutSliderItem.forEach((aboutSliderLoop) => {
     }
 
     let sliderWidthreturn = () => {
-        for (let i = 0; aboutSliderItem.length; i++) {
+        for (let i = 0; i < aboutSliderItem.length; i++) {
             aboutSliderItem[i].style.width = "100%";
         }
     }
