@@ -103,6 +103,7 @@
 }
 
 .icons {
+    width: fit-content;
     background: #B39166;
     padding: 4px 8px;
     margin-bottom: 16px;
@@ -155,12 +156,22 @@
     justify-content: space-between;
 }
 
+.header_menu .menu-item {
+    position: relative;
+}
+
+.header_menu .menu-item::after {
+    content: url(../images/icons/menu_icon.svg);
+    position: absolute;
+    top: 3px;
+}
+
 .header_menu .menu_dropdown {
     display: none;
 }
 
 .header_right_item {
-    margin-right: 24px;
+    margin: 0px 24px 0px 40px;
 }
 
 .header_right_item:last-child,
@@ -173,7 +184,7 @@
 }
 
 .menu-item {
-    margin-right: 24px;
+    margin-right: 40px;
     position: relative;
 }
 
@@ -509,6 +520,8 @@ div.about_slider_pagination span.swiper-pagination-progressbar-fill {
     max-width: 566px;
     width: 566px !important;
 }
+
+
 
 .internal_slider {
     position: absolute;

@@ -1,5 +1,5 @@
 let about = new Swiper(".about_slider_name", {
-    slidesPerView: "3",
+    slidesPerView: "1",
     spaceBetween: 30,
     freeMode: true,
     watchSlidesProgress: true,
@@ -11,6 +11,18 @@ let about = new Swiper(".about_slider_name", {
         nextEl: ".about_slider_next",
         prevEl: ".about_slider_prev",
     },
+    breakpoints: {
+        1250: {
+            slidesPerView: "3",
+        },
+        760: {
+            slidesPerView: "2",
+        },
+        320: {
+            slidesPerView: "1",
+        }
+    },
+
 });
 
 let aboutSliderItem = document.querySelectorAll('.about_slider_item');
